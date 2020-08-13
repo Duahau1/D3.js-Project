@@ -1,0 +1,25 @@
+
+#title{
+  text-align:center;
+}
+#container{
+  height:auto;
+  width:900px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin:0 auto;
+  padding:30px;
+}
+
+.bar {
+    display: inline-block;
+    fill: rgb(51, 173, 255);
+ }
+.bar:hover{
+  fill: white;
+}
+#axis-name{
+  fill:red;
+}
+@media (min-width: 1000px)

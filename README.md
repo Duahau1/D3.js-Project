@@ -5,8 +5,6 @@ Using D3.js to manipulate data and implement proper chart with Freecodecamp's le
 
 - Project 1: Bar Chart --- Link: https://codepen.io/duahau1/pen/xxVZZXN
 
-<iframe height="200" style="width: 100%;" scrolling="no" title="Fork Me! FCC: Test Suite Template" src="https://codepen.io/duahau1/embed/xxVZZXN?height=200&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-
 - Project 2: Scatterplot Grpah --- Link: https://codepen.io/duahau1/pen/zYqrWbW
 
 

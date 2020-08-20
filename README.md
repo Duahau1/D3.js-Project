@@ -7,6 +7,8 @@ Using D3.js to manipulate data and implement proper chart with Freecodecamp's le
 
 - Project 2: Scatterplot Grpah --- Link: https://codepen.io/duahau1/pen/zYqrWbW
 
+- Project 3: Heat Map --- Link: https://codepen.io/duahau1/pen/jOqrmXQ
+
 
 <h2>Certification</h2>
 The certification of Data Visualization can be found via this link:https://www.freecodecamp.org/certification/duahau1/data-visualization

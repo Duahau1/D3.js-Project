@@ -26,6 +26,18 @@ fetch(url).then(res=>res.json()).then(data=>{
      
 })
 */
+let searchState;
+document.getElementById("search").addEventListener('click',()=>{
+  let input = document.getElementById("state").value;
+  document.getElementById("state").value=null;
+  if(input==""){
+    searchState=undefined;
+  }
+  else{
+    searchState=input;
+  }
+  render(searchState);
+})
 var body = d3.select("body");
 
 var svg = d3.select("svg"),
@@ -124,7 +136,17 @@ let render =(param)=>{
       .attr('d',d=>pathGenerator(d))
       .style('fill',d=>threshold(map.get(d.id)[2]))
       .style('opacity',d=>{
+          if(searchState!=undefined){
+            if(map.get(d.id)[1]==searchState){
+              return 1;
+            }
+            else{
+              return 0.1;
+            }
+          }
+          
           if(selectedInterval==undefined||(oldSelectedInterval===selectedInterval)){
+            oldSelectedInterval=selectedInterval=undefined;
             return 1;
           }
           else {
